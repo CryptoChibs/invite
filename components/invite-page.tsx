@@ -488,13 +488,13 @@ export function InvitePage() {
             </div>
           </div>
         </div>
-        <div className="w-full mt-auto">
+        <div className="w-full mt-auto relative overflow-hidden">
           <Image
             src="/Trail-Bots.png"
             alt="Trail Bots"
             width={800}
             height={400}
-            className="w-full h-auto"
+            className="w-full md:w-[150%] lg:w-full h-auto relative md:left-1/2 md:-translate-x-1/2"
             priority
           />
         </div>
